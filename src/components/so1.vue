@@ -214,7 +214,7 @@
 		</div>
 	</div>
    </div>
-	<div class="modal" id="searchItem">
+	<div class="modal" id="searchHistory">
 	  <div class="modal-background"></div>
 	  <div class="modal-content">
 	    <!-- Any other Bulma elements you want -->

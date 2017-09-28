@@ -3,13 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'font-awesome/css/font-awesome.css'
 import 'bulma/css/bulma.css'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.css'
 import './css/index.css'
-import './css/indexForm.css'
+import './css/table.css'
+import './css/modal.css'
 
 Vue.config.productionTip = false
+Vue.use(VueMaterial.MdCore) // Required to boot vue material
+Vue.use(VueMaterial.MdButton)
+Vue.use(VueMaterial.MdIcon)
+Vue.use(VueMaterial.MdSidenav)
+Vue.use(VueMaterial.MdToolbar)
 Vue.use(VueMaterial)
 
 /* eslint-disable no-new */
